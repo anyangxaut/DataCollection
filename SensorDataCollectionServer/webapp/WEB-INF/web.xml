@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<web-app>
+
+<servlet>
+    <servlet-name>AccelerationServlet</servlet-name>
+    <servlet-class>com.xaut.servlet.AccelerationServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+  <servlet-name>AccelerationServlet</servlet-name>
+  <url-pattern>/AccelerationServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>GyroscopeServlet</servlet-name>
+    <servlet-class>com.xaut.servlet.GyroscopeServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+  <servlet-name>GyroscopeServlet</servlet-name>
+  <url-pattern>/GyroscopeServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>LightServlet</servlet-name>
+    <servlet-class>com.xaut.servlet.LightServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+  <servlet-name>LightServlet</servlet-name>
+  <url-pattern>/LightServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>MagneticServlet</servlet-name>
+    <servlet-class>com.xaut.servlet.MagneticServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+  <servlet-name>MagneticServlet</servlet-name>
+  <url-pattern>/MagneticServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>PressureServlet</servlet-name>
+    <servlet-class>com.xaut.servlet.PressureServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+  <servlet-name>PressureServlet</servlet-name>
+  <url-pattern>/PressureServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>ProximityServlet</servlet-name>
+    <servlet-class>com.xaut.servlet.ProximityServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+  <servlet-name>ProximityServlet</servlet-name>
+  <url-pattern>/ProximityServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>TemperatureServlet</servlet-name>
+    <servlet-class>com.xaut.servlet.TemperatureServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+  <servlet-name>TemperatureServlet</servlet-name>
+  <url-pattern>/TemperatureServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>GravityServlet</servlet-name>
+    <servlet-class>com.xaut.servlet.GravityServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+  <servlet-name>GravityServlet</servlet-name>
+  <url-pattern>/GravityServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>LinearAccelerationServlet</servlet-name>
+    <servlet-class>com.xaut.servlet.LinearAccelerationServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+  <servlet-name>LinearAccelerationServlet</servlet-name>
+  <url-pattern>/LinearAccelerationServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>RotationServlet</servlet-name>
+    <servlet-class>com.xaut.servlet.RotationServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+  <servlet-name>RotationServlet</servlet-name>
+  <url-pattern>/RotationServlet</url-pattern>
+</servlet-mapping>
+</web-app>

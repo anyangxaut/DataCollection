@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+   
+     
+    <item 
+        android:id="@+id/about" 
+        android:title="@string/about" 
+        android:showAsAction="never" 
+        android:orderInCategory="1"></item>
+    
+    <item 
+        android:id="@+id/help" 
+        android:title="@string/help" 
+        android:showAsAction="never" 
+        android:orderInCategory="2"></item>
+    
+    <item 
+        android:id="@+id/contact" 
+        android:title="@string/contact" 
+        android:orderInCategory="3" 
+        android:showAsAction="never"></item>
+    
+     <item 
+        android:id="@+id/exit" 
+        android:title="@string/exit" 
+        android:orderInCategory="4" 
+        android:showAsAction="never"></item>
+    
+    
+</menu>

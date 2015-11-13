@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relativelayout"
+    android:background="@drawable/menubg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+
+ <LinearLayout
+    android:id="@+id/buttonlayout"
+    android:gravity="center"
+    android:background="@drawable/colorbar"
+    android:layout_alignParentBottom="true"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+    <ImageButton
+        android:id="@+id/data"
+        android:contentDescription="@string/data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/data"
+        />
+    <TextView
+        android:layout_gravity="center" 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/data"/>
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >    
+     <ImageButton
+        android:id="@+id/tendency"
+        android:contentDescription="@string/tendency"
+        android:src="@drawable/tendency"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+      <TextView
+        android:layout_gravity="center" 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tendency"/>
+     </LinearLayout>
+     
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >   
+      <ImageButton
+        android:id="@+id/info"
+        android:contentDescription="@string/info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/info"
+        />
+      <TextView
+        android:layout_gravity="center" 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/info"/>
+     </LinearLayout>
+   
+     <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        > 
+       <ImageButton
+        android:id="@+id/sample"
+        android:contentDescription="@string/sample"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/sample"
+        />
+      <TextView
+        android:layout_gravity="center"  
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sample"/>
+     </LinearLayout>
+     
+    </LinearLayout>
+    
+<LinearLayout
+    android:id="@+id/layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_above="@id/buttonlayout">
+       
+    
+      <TextView
+        android:id="@+id/batteryinfo"
+        android:textIsSelectable="true"
+        android:textSize="17sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        />
+    
+    </LinearLayout>
+
+</RelativeLayout>
+

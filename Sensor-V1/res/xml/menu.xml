@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:key="preferencescreen"
+    >
+    
+<Preference
+        android:key="welcome"
+        android:layout="@layout/menutitle"
+        />
+    
+ <Preference
+        android:key="0"
+        android:title="Battery"
+        android:icon="@drawable/sensor"
+        />
+
+ <Preference
+        android:key="1"
+        android:title="Location"
+        android:icon="@drawable/sensor"
+        />
+
+</PreferenceScreen>
